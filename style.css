@@ -1,0 +1,113 @@
+
+/* resret pagina */
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* sfondo */
+
+body{
+    
+    background-image: url(background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* box */
+
+.box{
+    
+    height: 65%;
+    width: 65%;
+    border-radius: 20px;
+    margin: 30px 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+/* intestazione */
+
+.img{
+
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    margin-top: 100px;
+
+}
+
+.subtitle{
+
+    margin-top: 20px;
+    text-align: center;
+    color: limegreen;
+
+}
+
+.nav{
+
+    text-align: center;
+    margin: 0px 80px;
+    background-color: limegreen;
+    padding: 20px 0px;
+
+}
+
+/* main section monopattini */
+
+.mp {
+
+    margin: 20px 80px;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+
+}
+
+.paragrafo{    
+
+    font-size: 15px;
+
+}
+
+/* monopattino Gino */
+
+.caricaGino{   
+    
+    height: 30px;
+    width: 35%;
+    background-color: orange;
+    border-radius: 10px;
+
+}
+
+/* Monopattino Mike  */
+
+.caricaMike{
+    
+    height: 30px;
+    width: 70%;
+    background-color: limegreen;
+    border-radius: 10px;
+
+}
+
+/* Monopattino Fede  */
+
+.caricaFede{
+    
+    height: 30px;
+    width: 15%;
+    background-color: salmon;
+    border-radius: 10px;
+    margin-bottom: 100px;
+
+}
+
